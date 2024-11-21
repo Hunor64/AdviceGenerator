@@ -23,7 +23,7 @@ const Advice = () => {
 		<div className="advice">
 			<p>Advice #{adviceId}</p>
 			<h1>"{advice}"</h1>
-			<div className="break"></div>
+			<img style={{ cursor: "default" }} src="/public/images/pattern-divider-desktop.svg" alt="divider" />
 			<button onClick={() => fetchAdvice()}>
 				<img src="public/images/icon-dice.svg"></img>
 			</button>

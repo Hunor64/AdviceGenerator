@@ -24,7 +24,7 @@ const Advice = () => {
 			<h1>"{advice}"</h1>
 			<div className="break"></div>
 			<button onClick={() => fetchAdvice()}>
-				<img src="public/images/icon-dice.svg" title="dice"></img>
+				<img src="public/images/icon-dice.svg"></img>
 			</button>
 		</div>
 	)

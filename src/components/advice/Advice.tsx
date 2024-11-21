@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import "./Advice.css"
 
 const Advice = () => {
 	const [advice, setAdvice] = useState("")

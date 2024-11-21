@@ -1,4 +1,4 @@
-import Advice from "./components/Advice"
+import Advice from "./components/advice/Advice"
 
 const App = () => {
 	return (

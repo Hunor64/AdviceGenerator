@@ -30,7 +30,7 @@ body {
   }
 
   .break {
-    margin: 25px 0;
+        margin: 50px 0;
     width: 100%;
     height: 1px;
     background-color: #3b4755;
@@ -48,5 +48,9 @@ body {
     left: 50%;
     top: 335px;
     transform: translateX(-50%);
+    cursor: pointer;
+  }
+  img{
+    cursor: pointer;
   }
 }

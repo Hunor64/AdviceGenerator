@@ -43,6 +43,13 @@ button {
     transform: translateX(-50%);
     cursor: pointer;
 }
+button:active {
+    background-color: #3fb377;
+}
+
+button:hover {
+    box-shadow: #52fea6 0px 0px 10px;
+}
 
 img {
     cursor: pointer;
